@@ -10,7 +10,7 @@ def home():
 
 @app.route("/pass/<sname>/<int:marks>")
 def passed(sname, marks):
-    return f"<h1>Congratz {sname.title()}, you've passed with {marks} marks!</h1>"
+    return f"<h1>Congratz {sname.title()}, you've passed with excellent {marks} marks!</h1>"
 
 
 @app.route("/fail/<sname>/<int:marks>")
