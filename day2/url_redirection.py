@@ -11,7 +11,7 @@ def home():
 
 @app.route("/pass")
 def passed():
-    return "<h1>Congratz, you've passed!</h1>"
+    return "<h1>Congratz, you have passed!</h1>"
 
 
 @app.route("/fail")
