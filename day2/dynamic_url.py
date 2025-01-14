@@ -9,7 +9,7 @@ def home():
 
 @app.route("/welcome/<name>")
 def welcome(name):
-    return f"<h1>Hey {name.title()}, welcome to our Webpage!</h1>"
+    return f"<h1>Hey {name.title()}, welcome to our Webpage</h1>"
 
 
 if __name__ == "__main__":
